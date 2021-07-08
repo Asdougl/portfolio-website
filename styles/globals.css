@@ -1,16 +1,22 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@font-face {
+  font-family: "FiraCode";
+  src: url("/fonts/FiraCode-VF.ttf") format("truetype");
+  font-weight: 0 999;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: "Playfair";
+  src: url("/fonts/PlayfairDisplay-VariableFont.ttf") format("truetype");
+  font-weight: 0 999;
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: "Playfair";
+  src: url("/fonts/PlayfairDisplay-Italic-VariableFont.ttf") format("truetype");
+  font-weight: 0 999;
+  font-style: italic;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
